@@ -5,7 +5,7 @@ import {ReactComponent as Logo} from "./logo.svg";
 const {__} = wp.i18n;
 const {registerBlockType} = wp.blocks;
 
-registerBlockType('block/dark-mode', {
+registerBlockType('dark-mode-block/dark-mode-switch', {
     title: __('Dark Mode Switch', 'wp-dark-mode'),
     icon: {src: Logo},
     category: 'common',

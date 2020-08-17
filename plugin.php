@@ -43,13 +43,14 @@ function register_dark_mode_block() {
 	wp_register_script( 'dark-mode-block-frontend-script', plugins_url( 'build/script.js', __FILE__ ), [ 'jquery' ],
 		filemtime( plugin_dir_path( __FILE__ ) . 'build/script.js' ) );
 
-
-	register_block_type( 'block/dark-mode', [
-		'editor_script' => [ 'dark-mode-block-editor-script' ],
-		'editor_style'  => [ 'dark-mode-block-editor-style' ],
-		'style'         => [ 'dark-mode-block-frontend-styles' ],
-		'script'        => [ 'dark-mode-block-frontend-script' ],
-	] );
+	if( ! WP_Block_Type_Registry::get_instance()->is_registered( 'wp-dark-mode/switcher' ) ) {
+		register_block_type( 'dark-mode-block/switch', [
+			'editor_script' => [ 'dark-mode-block-editor-script' ],
+			'editor_style'  => [ 'dark-mode-block-editor-style' ],
+			'style'         => [ 'dark-mode-block-frontend-styles' ],
+			'script'        => [ 'dark-mode-block-frontend-script' ],
+		] );
+	}
 
 	if ( function_exists( 'wp_set_script_translations' ) ) {
 		/**

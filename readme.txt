@@ -1,6 +1,6 @@
 === WP Dark Mode Block ===
 Contributors: wppool, azizultex, princeahmed
-Tags: dark, dark mode, night mode, gutenberg blocks, dark theme
+Tags: block, blocks, dark, dark mode, night mode, gutenberg, gutenberg blocks, dark theme
 Requires at least: 4.4
 Tested up to: 5.5
 Requires PHP: 5.6
@@ -8,15 +8,14 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WP Dark Mode automatically enables a stunning dark mode of your website based on user's operating system. Supports macOS, Windows, Android & iOS.
+Add a switch button to toggle between darkmode and normal mode with the Dark Mode Switch block.
 
 == Description ==
 
 Use WP Dark Mode to enable a stunning dark mode theme for your WordPress website.
+The plugin add a switch button to toggle between darkmode and normal mode of the pages.
+Works across all operating systems including Android, iOS, macOS. No settings needed.
 
-
-Works across all operating systems including Android, iOS, macOS. No settings needed. The plugin intelligently detects device preferenc and dynamically delivers a hand crafted, expert designed dark mode experience for your readers.
-Just activate dark mode on your device, and browse the website to experience a magically transformed dark mode of your website.
 WP Dark Mode supports all major operating systems including iOS, Android, macOS or Windows 10.
 
 === WP Dark Mode Features ===
@@ -32,7 +31,6 @@ WP Dark Mode supports all major operating systems including iOS, Android, macOS 
 You can display the switch button in any page/post by using the  gutenberg (Dark Mode Switch) block.
 
 == Screenshots ==
-1. General Settings
 
 == Changelog ==
 

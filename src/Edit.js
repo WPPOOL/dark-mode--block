@@ -40,9 +40,11 @@ class Edit extends Component {
                     />
                 </BlockControls>
 
-                <Button
-                    style={attributes.style}
-                />
+                <div style={{textAlign: attributes.alignment}}>
+                    <Button
+                        style={attributes.style}
+                    />
+                </div>
 
             </Fragment>
         )
