@@ -1,0 +1,20 @@
+{
+  "name": "wp-dark-mode-block",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@svgr/webpack": "^4.3.3",
+    "@wordpress/scripts": "^6.0.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "url-loader": "^2.3.0"
+  }
+}
