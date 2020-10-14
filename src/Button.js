@@ -20,6 +20,9 @@ import btn5_moon from './button-presets/btn-5/moon.png';
 import btn6_sun from './button-presets/btn-6/sun.png';
 import btn6_moon from './button-presets/btn-6/moon.png';
 
+import btn7_light from './button-presets/btn-7/light.png';
+import btn7_dark from './button-presets/btn-7/dark.png';
+
 class Button extends Component {
 
     render() {
@@ -78,6 +81,15 @@ class Button extends Component {
                                                 <div className="modes">
                                                     <img className="light" src={btn6_sun}/>
                                                     <img className="dark" src={btn6_moon}/>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        : style === 7 ?
+                                        <div>
+                                            <label htmlFor="wp-dark-mode-switch">
+                                                <div className="modes">
+                                                    <img className="light" src={btn7_light} />
+                                                    <img className="dark" src={btn7_dark} />
                                                 </div>
                                             </label>
                                         </div>

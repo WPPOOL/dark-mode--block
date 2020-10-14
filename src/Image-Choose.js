@@ -9,6 +9,7 @@ import btn3 from './button-presets/btn-3.png';
 import btn4 from './button-presets/btn-4.png';
 import btn5 from './button-presets/btn-5.png';
 import btn6 from './button-presets/btn-6.png';
+import btn7 from './button-presets/btn-7.png';
 
 class Image_Choose extends Component {
 
@@ -18,7 +19,7 @@ class Image_Choose extends Component {
 
     render() {
 
-        const images = [btn1, btn2, btn3, btn4, btn5, btn6];
+        const images = [btn1, btn2, btn3, btn4, btn5, btn6, btn7];
 
         return (
             <div className="image-choose-wrap">
